@@ -1,28 +1,32 @@
 # RSA 檔案加密
-
+=============
 
 ##檔案結構
-
-| crypt.py
-| decrypt.py
-| rename.py
-| RSAgenerator.py
-| readme.md
+-------------
+| crypt.py  
+| decrypt.py  
+| rename.py  
+| RSAgenerator.py  
+| readme.md  
 
 ##運行環境
+-------------
 python3.7
 Cryptodome3.8.1
 
 ## RSA 金鑰產生
+-------------
 RSAgenerator.py 使用Cryptodome 產生 RSA KEY 公鑰與私鑰
 
 ## 檔案加密
+-------------
 使用混合加密方式 PKCS#1 OAEP  對檔案內容進行非對稱加密填充
 產生一組16字Session key並使用 RSA 公鑰 對 Session key 進行加密
 將檔案內容以AES進行加密並將 nonce, 內容及驗證碼寫原文件
 並對檔案名稱進行base 64 進行編碼進行倒序混淆後重新命名檔案
 
 ##檔案解密
+-------------
 導入RSA 私鑰, Session key, nonce, 訊息驗證碼, 加密後的檔案內容後
 重建出AES密鑰對檔案數據進行解密
 即可解出原檔案
@@ -30,7 +34,7 @@ RSAgenerator.py 使用Cryptodome 產生 RSA KEY 公鑰與私鑰
 
 
 ##應用
-
+-------------
 如導入 os.walk 對磁碟機進行遊走
 可以成為磁碟加密軟體或隨身碟加密軟體
 當繼續加入提示畫面或更換桌布等惡意行為
