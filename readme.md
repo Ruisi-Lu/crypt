@@ -1,7 +1,7 @@
-# RSA 檔案加密
+RSA 檔案加密
 =============
 
-##檔案結構
+檔案結構
 -------------
 | crypt.py  
 | decrypt.py  
@@ -9,12 +9,12 @@
 | RSAgenerator.py  
 | readme.md  
 
-##運行環境
+運行環境
 -------------
 python3.7
 Cryptodome3.8.1
 
-## RSA 金鑰產生
+RSA 金鑰產生
 -------------
 RSAgenerator.py 使用Cryptodome 產生 RSA KEY 公鑰與私鑰
 
