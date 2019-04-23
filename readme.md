@@ -40,3 +40,9 @@ RSAgenerator.py 使用Cryptodome 產生 RSA KEY 公鑰與私鑰
 當繼續加入提示畫面或更換桌布等惡意行為
 此軟體將變為風流一時的勒索軟體wannaCry的簡易版
 
+參考資料
+-------------
+https://pycryptodome.readthedocs.io
+https://maoao530.github.io/2016/11/20/python-rsa/
+https://zh.wikipedia.org/wiki/Base64
+https://zh.wikipedia.org/wiki/WannaCry
