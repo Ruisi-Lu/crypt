@@ -11,7 +11,7 @@ RSA 檔案加密
 
 運行環境
 -------------
-python3.7
+python3.7  
 Cryptodome3.8.1
 
 RSA 金鑰產生
