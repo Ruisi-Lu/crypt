@@ -42,7 +42,7 @@ RSAgenerator.py 使用Cryptodome 產生 RSA KEY 公鑰與私鑰
 
 參考資料
 -------------
-https://pycryptodome.readthedocs.io
-https://maoao530.github.io/2016/11/20/python-rsa/
-https://zh.wikipedia.org/wiki/Base64
-https://zh.wikipedia.org/wiki/WannaCry
+https://pycryptodome.readthedocs.io  
+https://maoao530.github.io/2016/11/20/python-rsa/  
+https://zh.wikipedia.org/wiki/Base64  
+https://zh.wikipedia.org/wiki/WannaCry  
