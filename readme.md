@@ -31,7 +31,7 @@ RSAgenerator.py 使用Cryptodome 產生 RSA KEY 公鑰與私鑰
 重建出AES密鑰對檔案數據進行解密
 即可解出原檔案
 解出後將其檔名倒序並以base 64 解碼回原檔名即完成解密程序
-
+![](https://d1dwq032kyr03c.cloudfront.net/upload/images/20170106/20103434cTJ19UZgTu.jpg)
 
 應用
 -------------
@@ -46,3 +46,4 @@ https://pycryptodome.readthedocs.io
 https://maoao530.github.io/2016/11/20/python-rsa/  
 https://zh.wikipedia.org/wiki/Base64  
 https://zh.wikipedia.org/wiki/WannaCry  
+https://ithelp.ithome.com.tw/articles/10188528
